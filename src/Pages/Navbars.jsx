@@ -3,13 +3,12 @@ import { MdPolicy } from "react-icons/md";
 
 export default function Navbars() {
   return (
-    <div className="">
-
-      <div className="">
+    <div className="flex justify-between py-3 p-3 items-center w-full">
+      <div className="text-3xl font-extrabold">
         <FaReact />
       </div>
 
-      <div className="">
+      <div className="flex items-center gap-5 text-xl">
         <FaList />
         <MdPolicy />
       </div>
