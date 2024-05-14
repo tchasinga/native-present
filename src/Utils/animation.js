@@ -1,6 +1,6 @@
 // this will  be my animation file using framer motion
 
-export const containerVariant = (delay = 3) => ({
+export const containerVariant = (delay = 1) => ({
     offscreen:{
         opacity: 0,
         y: 50,
@@ -10,7 +10,7 @@ export const containerVariant = (delay = 3) => ({
         y: 0,
         transition: {
             delay: delay,
-            duration: 5.5,
+            duration: 4.5,
             type: "spring",
         }
     }
