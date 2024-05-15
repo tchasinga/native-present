@@ -5,7 +5,8 @@ import { FaJava } from "react-icons/fa6";
 import { MdSlowMotionVideo } from "react-icons/md";
 import { FaFilePdf } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-
+import 'animate.css';
+ import { IoIosArrowRoundForward } from "react-icons/io";
 
 export default function Program() {
   return (
@@ -96,8 +97,9 @@ export default function Program() {
 
         
         
-          <Link to={"/apipages"}>
-            <h4 className="text-sm font-semibold text-slate-900 decoration-dashed py-2 cursor-pointer">Get all APIs</h4>
+          <Link to={"/apipages"} className="flex items-center gap-2 py-3">
+            <h4 className="text-sm font-semibold text-slate-900 decoration-dashed leading-none cursor-pointer">Get all APIs</h4>
+            <IoIosArrowRoundForward className="animate__animated  animate__fadeInLeft text-2xl"/>
           </Link>  
                               
             </div>
@@ -105,3 +107,4 @@ export default function Program() {
     </div>       
   )
 }
+

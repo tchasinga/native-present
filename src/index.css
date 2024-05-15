@@ -20,3 +20,10 @@
     transform: rotate(+360deg);
   }
 }
+
+.animate__fadeInLeft{
+  animation-iteration-count: infinite;
+animation-delay: 1s;
+--animate-duration: 2.5s;
+animation-duration: 2.5s;
+}

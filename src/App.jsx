@@ -1,7 +1,7 @@
 import './index.css'
 import Navbars from './Pages/Navbars'
-import Program from './Pages/Program'
-import Welcom from './Pages/Welcom'
+import Program from './Pages/Program.jsx'
+import Welcom from './Pages/Welcom.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
