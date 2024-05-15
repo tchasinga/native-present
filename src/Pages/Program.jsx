@@ -60,7 +60,7 @@ export default function Program() {
                  <p className="text-slate-900 pb-3 font-normal">You will need to download those two resource</p>
                  <ul className="flex items-center gap-5">
                     <li className="text-slate-900">
-                      <a href="https://www.youtube.com/watch?v=0fKg7e37bQE" target="_blank" rel="noreferrer">
+                      <a href="https://mega.nz/folder/pJx0WTbB#_nBrmfL02kDoiID8DJJ4kA" target="_blank" rel="noreferrer">
                          <MdSlowMotionVideo className="text-3xl text-red-900"/>
                          <p className="text-xs cursor-pointer">Video tutorial</p>
                       </a>
@@ -68,7 +68,7 @@ export default function Program() {
                     <li className="text-slate-900">
                       <a href="https://www.youtube.com/watch?v=0fKg7e37bQE" target="_blank" rel="noreferrer">
                          <FaFilePdf className="text-3xl text-blue-900"/>
-                         <p className="text-xs cursor-pointer">Pdf</p>
+                         <p className="text-xs cursor-pointer">Pdf to read</p>
                       </a>
                     </li>
                  </ul>
