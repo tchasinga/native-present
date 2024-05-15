@@ -106,7 +106,11 @@ export default function Program() {
          </div>
 
          {/* Thirty week... */}
-         
+         <div className="flex flex-col">
+            <h3 className="text-2xl text-slate-900 font-semibold">Thirty week of the program...</h3>
+            <h4 className="text-sm font-normal decoration-dashed">Thirty week :</h4>
+            <hr className="w-32"/>
+         </div>
     </div>       
   )
 }
