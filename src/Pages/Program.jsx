@@ -76,7 +76,7 @@ export default function Program() {
          </div>
 
          <div className="py-10">
-              <h3 className="text-2xl text-slate-900 font-semibold">Second week of the program</h3>
+              <h3 className="text-2xl text-slate-900 font-semibold">Second week of the program : </h3>
               <hr className="w-28 " />
          </div>
     </div>       
