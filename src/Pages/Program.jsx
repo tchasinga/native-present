@@ -28,23 +28,24 @@ export default function Program() {
               <h3 className="font-bold text-slate-900">Installation of IDE</h3>
                 <h4 className="text-sm font-normal decoration-dashed">Each of them has a direct link just click it </h4>
               <div className="pt-3">
+                <p className="text-slate-900 pb-3 font-bold">You will need to install the following IDE to be able to follow the program</p>
                 <ul className="flex items-center gap-5">
                   <li className="text-slate-900">
                     <a href="https://developer.android.com/studio" target="_blank" rel="noreferrer">
                       <AiFillAndroid className="text-3xl text-green-900"/>
-                      <p className="text-xs">Android studio</p>
+                      <p className="text-xs cursor-pointer">Android studio</p>
                     </a>
                   </li>
                   <li className="text-slate-900">
                     <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
                       <VscVscode className="text-3xl text-blue-900"/>
-                      <p className="text-xs">Vs code</p>
+                      <p className="text-xs cursor-pointer">Vs code</p>
                     </a>
                   </li>
                   <li className="text-slate-900">
                     <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noreferrer">
                       <FaJava className="text-3xl text-red-900"/>
-                      <p className="text-xs">SDK Java</p>
+                      <p className="text-xs cursor-pointer">SDK Java</p>
                     </a>
                   </li>
                 </ul>
