@@ -66,7 +66,7 @@ export default function Program() {
                       </a>
                     </li>
                     <li className="text-slate-900">
-                      <a href="https://www.youtube.com/watch?v=0fKg7e37bQE" target="_blank" rel="noreferrer">
+                      <a href="https://mega.nz/file/FNZVCbAC#02xqjsuy-JTC9VmAb_I51EFkLY2pdImZ8pqsDMV-X5M" target="_blank" rel="noreferrer">
                          <FaFilePdf className="text-3xl text-blue-900"/>
                          <p className="text-xs cursor-pointer">Pdf to read</p>
                       </a>
