@@ -1,3 +1,7 @@
+import { AiFillAndroid } from "react-icons/ai";
+import { VscVscode } from "react-icons/vsc";
+import { FaJava } from "react-icons/fa6";
+
 export default function Program() {
   return (
      <div className="flex flex-col pb-16 w-full p-5">
@@ -18,7 +22,33 @@ export default function Program() {
             <div className="pt-3">
                 <p className="text-red-900">Buy the end of this first week you&apos;ll able to create an ANDROID & IOS APP</p>
             </div>
-            
+       </div>
+       {/* Installation of IDE */}
+       <div className="pt-5">
+              <h3 className="font-bold text-slate-900">Installation of IDE</h3>
+                <h4 className="text-sm font-normal decoration-dashed">Each of them has a direct link just click it </h4>
+              <div className="pt-3">
+                <ul className="flex items-center gap-5">
+                  <li className="text-slate-900">
+                    <a href="https://developer.android.com/studio" target="_blank" rel="noreferrer">
+                      <AiFillAndroid className="text-3xl text-green-900"/>
+                      <p className="text-xs">Android studio</p>
+                    </a>
+                  </li>
+                  <li className="text-slate-900">
+                    <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+                      <VscVscode className="text-3xl text-blue-900"/>
+                      <p className="text-xs">Vs code</p>
+                    </a>
+                  </li>
+                  <li className="text-slate-900">
+                    <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noreferrer">
+                      <FaJava className="text-3xl text-red-900"/>
+                      <p className="text-xs">SDK Java</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
        </div>
     </div>
   )
