@@ -98,7 +98,7 @@ export default function Program() {
         
         
           <Link to={"/apipages"} className="flex items-center gap-2 py-3">
-            <h4 className="text-sm font-semibold text-slate-900 decoration-dashed leading-none cursor-pointer">Get all APIs</h4>
+            <h4 className="text-sm font-semibold text-slate-900 decoration-dashed leading-none cursor-pointer hover:text-lime-700 duration-500">Get all APIs</h4>
             <IoIosArrowRoundForward className="animate__animated  animate__fadeInLeft text-2xl"/>
           </Link>  
                               
