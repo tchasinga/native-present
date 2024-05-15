@@ -97,7 +97,7 @@ export default function Program() {
         
         
           <Link to={"/apipages"}>
-            <h4 className="text-sm font-semibold text-slate-900 decoration-dashed py-2">Get all APIs</h4>
+            <h4 className="text-sm font-semibold text-slate-900 decoration-dashed py-2 cursor-pointer">Get all APIs</h4>
           </Link>  
                               
             </div>
