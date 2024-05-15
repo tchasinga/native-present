@@ -9,8 +9,8 @@ export default function Navbars() {
       </div>
 
       <div className="flex items-center gap-5 text-xl">
-        <FaList />
-        <MdPolicy />
+        <FaList className="hover:cursor-pointer"/>
+        <MdPolicy  className="cursor-pointer"/>
       </div>
     </div>
   )
