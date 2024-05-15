@@ -1,4 +1,5 @@
 import './index.css'
+import Apispages from './Pages/Apispages.jsx'
 import Navbars from './Pages/Navbars'
 import Program from './Pages/Program.jsx'
 import Welcom from './Pages/Welcom.jsx'
@@ -11,7 +12,7 @@ function App() {
         <Navbars />
         <Routes>
           <Route path='/' element={<><Welcom /><Program/></>} />
-          <Route path='/apipages' element={<div>PAGE NOT FOUND</div>} />
+          <Route path='/apipages' element={<Apispages/>} />
         </Routes>  
       </BrowserRouter>
     </div>

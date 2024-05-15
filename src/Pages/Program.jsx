@@ -97,7 +97,7 @@ export default function Program() {
 
         
         
-          <Link to={"/apipages"} className="flex items-center gap-2 py-3">
+          <Link to={"/apipages"} className="flex items-center gap-2 py-3 p-2 w-1/4">
             <h4 className="text-sm font-semibold text-slate-900 decoration-dashed leading-none cursor-pointer hover:text-lime-700 duration-500">Get all APIs</h4>
             <IoIosArrowRoundForward className="animate__animated  animate__fadeInLeft text-2xl"/>
           </Link>  
@@ -110,6 +110,23 @@ export default function Program() {
             <h3 className="text-2xl text-slate-900 font-semibold">Thirty week of the program...</h3>
             <h4 className="text-sm font-normal decoration-dashed">Thirty week :</h4>
             <hr className="w-32"/>
+            <div className="flex flex-col text-slate-900 p-2">
+                <p>This part will  be more focus on creating another new app once again it gonna be a full-stack app</p>
+                <p>This time we will focus on two part all  needed information will be provided in the project description...</p>
+            </div>
+            <div className="">
+                <h1 className="text-slate-900 font-semibold">Project description</h1>
+                <div className="flex flex-col p-3">
+                    <p>This projects will two part , the first part which is admin will be done by using Reactjs or Nextjs</p>
+                    <p className="">The main purpose the admin page will be to adding news information such as name of the event</p>
+                    <p className="">Description of the event and including image, and about the backend all the APIs will provided by me</p>
+                    <p className="">And the react-native will be used to display all the the information comes from the APis of admin panel</p>
+                  <div className="py-3">
+                  <p className=""><strong>Note :</strong> Remember your purpose is will be to stay focus on react-native part , about the backend part</p>
+                  <p className="">I&apos;ll in personal charge and provided all needed APIs for your training</p>
+                  </div>
+                </div>
+            </div>
          </div>
     </div>       
   )
