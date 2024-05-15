@@ -1,6 +1,6 @@
 // this will  be my animation file using framer motion
 
-export const containerVariant = (delay = 1) => ({
+export const containerVariant = (delay = 0.5) => ({
     offscreen:{
         opacity: 0,
         y: 50,
