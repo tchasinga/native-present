@@ -3,6 +3,7 @@ import { VscVscode } from "react-icons/vsc";
 import { FaJava } from "react-icons/fa6";
 import { MdSlowMotionVideo } from "react-icons/md";
 import { FaFilePdf } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Program() {
   return (
@@ -75,9 +76,29 @@ export default function Program() {
                  </div>
          </div>
 
-         <div className="py-10">
-              <h3 className="text-2xl text-slate-900 font-semibold">Second week of the program : </h3>
-              <hr className="w-28 " />
+         <div className="py-10 justify-center">
+            <div className="flex flex-col justify-center">
+            <h3 className="text-2xl text-slate-900 font-semibold">Second week of the program...</h3>
+            <h4 className="text-sm font-normal decoration-dashed">Second week :</h4>
+            <hr className="w-32"/>
+            </div>
+            <div className="flex flex-col justify-center pt-5">
+                <p className="text-slate-900">In this second part week we are going to drive deep in react-native by creating a full-stack app</p>
+                <p className="text-slate-900">All  the teams will  work only on frontend using React-native, and all the needed APIs will be ready</p>
+                <p className="text-slate-900">All the APIs will be provided by me and deployed before to be used :</p>
+                <h4 className="text-sm font-semibold text-slate-900 decoration-dashed py-2">Project description :</h4>
+                <p className="text-slate-900">You will be able to create a full-stack app with a login and a signup page</p>
+                <p className="text-slate-900">The user must to the <strong>the CRUD operation</strong> on his user pages after login into it </p>
+                <p className="text-slate-900">The user should be able to make login or signup with his google account...</p>
+                <p className="text-slate-900">The user must be able to update his own information such as name etc...</p>  
+
+                <div className="">
+                    {/* Including the links */}
+                  <Link to="/apispages">
+                     <h4 className="text-sm font-semibold text-slate-900 decoration-dashed py-2">All needed APIs links :</h4>
+                  </Link>
+                </div>             
+            </div>
          </div>
     </div>       
   )
