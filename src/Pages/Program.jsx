@@ -1,6 +1,8 @@
 import { AiFillAndroid } from "react-icons/ai";
 import { VscVscode } from "react-icons/vsc";
 import { FaJava } from "react-icons/fa6";
+import { MdSlowMotionVideo } from "react-icons/md";
+import { FaFilePdf } from "react-icons/fa";
 
 export default function Program() {
   return (
@@ -51,6 +53,27 @@ export default function Program() {
                 </ul>
               </div>
        </div>
-    </div>
+       {/* The program video tutorial and Pdf */}
+         <div className="pt-3">
+         <h3 className="font-bold text-slate-900">The program video tutorial and Pdf</h3>
+                  <div className="p">
+                 <p className="text-slate-900 pb-3 font-normal">You will need to download those two resource</p>
+                 <ul className="flex items-center gap-5">
+                    <li className="text-slate-900">
+                      <a href="https://www.youtube.com/watch?v=0fKg7e37bQE" target="_blank" rel="noreferrer">
+                         <MdSlowMotionVideo className="text-3xl text-red-900"/>
+                         <p className="text-xs cursor-pointer">Video tutorial</p>
+                      </a>
+                    </li>
+                    <li className="text-slate-900">
+                      <a href="https://www.youtube.com/watch?v=0fKg7e37bQE" target="_blank" rel="noreferrer">
+                         <FaFilePdf className="text-3xl text-blue-900"/>
+                         <p className="text-xs cursor-pointer">Pdf</p>
+                      </a>
+                    </li>
+                 </ul>
+                 </div>
+         </div>
+    </div>       
   )
 }
