@@ -100,8 +100,7 @@ export default function Program() {
           <Link to={"/apipages"} className="flex items-center gap-2 py-3 p-2 w-1/4">
             <h4 className="text-sm font-semibold text-slate-900 decoration-dashed leading-none cursor-pointer hover:text-lime-700 duration-500">Get all APIs</h4>
             <IoIosArrowRoundForward className="animate__animated  animate__fadeInLeft text-2xl"/>
-          </Link>  
-                              
+          </Link>                      
             </div>
          </div>
 
@@ -123,9 +122,17 @@ export default function Program() {
                     <p className="">And the react-native will be used to display all the the information comes from the APis of admin panel</p>
                   <div className="py-3">
                   <p className=""><strong>Note :</strong> Remember your purpose is will be to stay focus on react-native part , about the backend part</p>
-                  <p className="">I&apos;ll in personal charge and provided all needed APIs for your training</p>
+                  <p className="">I&apos;ll take personally the charge and provided all needed APIs for your training</p>
                   </div>
                 </div>
+            </div>
+         </div>
+
+         <div className="flex flex-col">
+         <h3 className="text-2xl text-slate-900 font-semibold">Last week of the first part of this program...</h3>
+            <div className="text-slate-900 py-3">
+                <p>This will used to make a general review of the first month of this program and we are going to talk deeply</p>
+                <p className="">About how we gonna manage to works on the final CAPSTONE PROJECT which will takes one month in total</p>
             </div>
          </div>
     </div>       
