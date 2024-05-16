@@ -13,10 +13,10 @@ export default function Navbars() {
 
       <div className="flex items-center gap-5 text-xl">
        <Link to="/policy">
-       <MdPolicy  className="cursor-pointer"/>
+       <MdPolicy  className="cursor-pointer animate__animated animate__bounceIn"/>
        </Link>
        <Link to="/thelist">
-       <FaList className="hover:cursor-pointer"/>
+       <FaList className="hover:cursor-pointer animate__animated animate__bounceIn"/>
        </Link>
      
       </div>
