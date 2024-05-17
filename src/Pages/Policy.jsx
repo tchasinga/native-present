@@ -37,7 +37,7 @@ export default function Policy() {
             <h1 className="font-semibold">Payment method : </h1>
             <p className="pt-2">All the payment support will sent to DIRECT <strong>VISA CARD</strong> the amount should be from 10$ up to 20$ according to your current</p>
             <p>Financial situation</p>
-            <p><strong>VISA CARD NUMBER :</strong> <span className="text-green-900 uppercase font-semibold text-lg">xxxxxxxxxxxxxxxxxxx</span></p>
+            <p><strong>VISA CARD NUMBER :</strong> <span className="text-green-900 uppercase font-semibold text-lg">0018624311 8736</span></p>
 
             <div className="py-3">
                 <hr />
