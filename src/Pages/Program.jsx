@@ -3,7 +3,7 @@ import { AiFillAndroid } from "react-icons/ai";
 import { VscVscode } from "react-icons/vsc";
 import { FaJava } from "react-icons/fa6";
 import { MdSlowMotionVideo } from "react-icons/md";
-import { FaFilePdf } from "react-icons/fa";
+import { FaFilePdf , FaNodeJs} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import 'animate.css';
  import { IoIosArrowRoundForward } from "react-icons/io";
@@ -52,6 +52,12 @@ export default function Program() {
                     <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noreferrer">
                       <FaJava className="text-3xl text-red-900"/>
                       <p className="text-xs cursor-pointer">SDK Java</p>
+                    </a>
+                  </li>
+                  <li className="text-slate-900">
+                    <a href="https://lodejs.org/en/download/current" target="_blank" rel="noreferrer">
+                      <FaNodeJs className="text-3xl text-green-900"/>
+                      <p className="text-xs cursor-pointer">NodeJs</p>
                     </a>
                   </li>
                 </ul>
