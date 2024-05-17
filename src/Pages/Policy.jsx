@@ -8,7 +8,7 @@ export default function Policy() {
     whileInView={"onscreen"}
     variants={containerVariant()}
     >
-       <div className="flex items-center justify-center">
+       <div className="flex items-center justify-center p-2">
        <h1 className="text-slate-900 text-5xl font-medium uppercase ">the general police of this program</h1>
        </div>
 
@@ -27,13 +27,13 @@ export default function Policy() {
             </div>
         </div>
         <div className="flex items-center justify-center">
-          <h1 className="text-slate-900 text-5xl font-medium uppercase ">the payment support</h1>
+          <h1 className="text-slate-900 text-5xl font-medium uppercase p-2">the payment support</h1>
        </div>
-        <div className="flex pt-5 flex-col text-slate-900">
+        <div className="flex pt-5 flex-col text-slate-900 p-2">
             <p className="">The payment support is to help CEO of this program to keep maintaining the learning program and continuous to suggest more functionality </p>
             <p>To this program I&apos;m sure that program will have important resource for your training which is good for all of us</p>
         </div>
-        <div className="flex flex-col py-3">
+        <div className="flex flex-col py-3 p-2">
             <h1 className="font-semibold">Payment method : </h1>
             <p className="pt-2">All the payment support will sent to DIRECT <strong>VISA CARD</strong> the amount should be from 10$ up to 20$ according to your current</p>
             <p>Financial situation</p>
@@ -43,7 +43,7 @@ export default function Policy() {
                 <hr />
             </div>
         </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col p-1">
                 <p className="text-red-700 text-base">Note : the payment should be achieved right before the first week of this program... thanks</p>
             </div>
     </motion.div>

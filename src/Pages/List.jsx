@@ -15,7 +15,7 @@ export default function List() {
 
   return (
     <div className="flex flex-col pt-20 ">  
-        <h1 className="text-slate-900 text-5xl font-medium uppercase pb-4 ">the general police of this program</h1>
+        <h1 className="text-slate-900 text-5xl font-medium uppercase pb-4 p-2">the general police of this program</h1>
          {
             myList.map((getData)=> (
                 <motion.div className="pl-3 flex gap-4 items-center" key={getData.id}
