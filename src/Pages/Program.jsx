@@ -40,7 +40,7 @@ export default function Program() {
                 <Tooltip title="click here to download me"  arrow placement='bottom'>
                   <li className="text-slate-900">
                     <a href="https://developer.android.com/studio" target="_blank" rel="noreferrer">
-                      <AiFillAndroid className="text-3xl text-green-900 animate__shakeX"/>
+                      <AiFillAndroid className="text-3xl text-green-900 "/>
                       <p className="text-xs cursor-pointer">Android studio</p>
                     </a>
                   </li>
@@ -48,7 +48,7 @@ export default function Program() {
                   <Tooltip title="click here to download me"  arrow placement='bottom'>
                   <li className="text-slate-900">
                     <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
-                      <VscVscode className="text-3xl text-blue-900 animate__shakeX"/>
+                      <VscVscode className="text-3xl text-blue-900 "/>
                       <p className="text-xs cursor-pointer">Vs code</p>
                     </a>
                   </li>
@@ -56,7 +56,7 @@ export default function Program() {
                   <Tooltip title="click here to download me"  arrow placement='bottom'>
                   <li className="text-slate-900">
                     <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noreferrer">
-                      <FaJava className="text-3xl text-red-900 animate__shakeX"/>
+                      <FaJava className="text-3xl text-red-900 "/>
                       <p className="text-xs cursor-pointer">SDK Java</p>
                     </a>
                   </li>
@@ -64,7 +64,7 @@ export default function Program() {
                   <Tooltip title="click here to download me"  arrow placement='bottom'>
                   <li className="text-slate-900">
                     <a href="https://lodejs.org/en/download/current" target="_blank" rel="noreferrer">
-                      <FaNodeJs className="text-3xl text-green-900 animate__animated animate__shakeX"/>
+                      <FaNodeJs className="text-3xl text-green-900 animate__animated "/>
                       <p className="text-xs cursor-pointer">NodeJs</p>
                     </a>
                   </li>
@@ -81,7 +81,7 @@ export default function Program() {
                  <Tooltip title="click here to download me"  arrow placement='bottom'>
                     <li className="text-slate-900">
                       <a href="https://mega.nz/file/NEgRTRTQ#UxtAZMwTau-2lOghemXyk9hIrZ6kJUue83GhjWWBVU4" target="_blank" rel="noreferrer">
-                         <MdSlowMotionVideo className="text-3xl text-red-900 animate__shakeX"/>
+                         <MdSlowMotionVideo className="text-3xl text-red-900 "/>
                          <p className="text-xs cursor-pointer">Video tutorial</p>
                       </a>
                     </li>
@@ -89,7 +89,7 @@ export default function Program() {
                     <Tooltip title="click here to download me"  arrow placement='bottom'>
                     <li className="text-slate-900">
                       <a href="https://mega.nz/file/FNZVCbAC#02xqjsuy-JTC9VmAb_I51EFkLY2pdImZ8pqsDMV-X5M" target="_blank" rel="noreferrer">
-                         <FaFilePdf className="text-3xl text-blue-900 animate__shakeX"/>
+                         <FaFilePdf className="text-3xl text-blue-900 "/>
                          <p className="text-xs cursor-pointer">Pdf to read</p>
                       </a>
                     </li>
