@@ -7,6 +7,7 @@ import { FaFilePdf , FaNodeJs} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import 'animate.css';
  import { IoIosArrowRoundForward } from "react-icons/io";
+ import { Tooltip } from "@mui/material";
 
 export default function Program() {
   return (
@@ -36,30 +37,38 @@ export default function Program() {
               <div className="pt-3">
                 <p className="text-slate-900 pb-3 font-bold">You will need to install the following IDE to be able to follow the program</p>
                 <ul className="flex items-center gap-5">
+                <Tooltip title="click here to download me"  arrow placement='bottom'>
                   <li className="text-slate-900">
                     <a href="https://developer.android.com/studio" target="_blank" rel="noreferrer">
-                      <AiFillAndroid className="text-3xl text-green-900"/>
+                      <AiFillAndroid className="text-3xl text-green-900 animate__shakeX"/>
                       <p className="text-xs cursor-pointer">Android studio</p>
                     </a>
                   </li>
+                  </Tooltip>
+                  <Tooltip title="click here to download me"  arrow placement='bottom'>
                   <li className="text-slate-900">
                     <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
-                      <VscVscode className="text-3xl text-blue-900"/>
+                      <VscVscode className="text-3xl text-blue-900 animate__shakeX"/>
                       <p className="text-xs cursor-pointer">Vs code</p>
                     </a>
                   </li>
+                  </Tooltip>
+                  <Tooltip title="click here to download me"  arrow placement='bottom'>
                   <li className="text-slate-900">
                     <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html" target="_blank" rel="noreferrer">
-                      <FaJava className="text-3xl text-red-900"/>
+                      <FaJava className="text-3xl text-red-900 animate__shakeX"/>
                       <p className="text-xs cursor-pointer">SDK Java</p>
                     </a>
                   </li>
+                  </Tooltip>
+                  <Tooltip title="click here to download me"  arrow placement='bottom'>
                   <li className="text-slate-900">
                     <a href="https://lodejs.org/en/download/current" target="_blank" rel="noreferrer">
-                      <FaNodeJs className="text-3xl text-green-900"/>
+                      <FaNodeJs className="text-3xl text-green-900 animate__animated animate__shakeX"/>
                       <p className="text-xs cursor-pointer">NodeJs</p>
                     </a>
                   </li>
+                  </Tooltip>
                 </ul>
               </div>
        </div>
@@ -69,18 +78,22 @@ export default function Program() {
                   <div className="p">
                  <p className="text-slate-900 pb-3 font-normal">You will need to download those two resource</p>
                  <ul className="flex items-center gap-5">
+                 <Tooltip title="click here to download me"  arrow placement='bottom'>
                     <li className="text-slate-900">
                       <a href="https://mega.nz/file/NEgRTRTQ#UxtAZMwTau-2lOghemXyk9hIrZ6kJUue83GhjWWBVU4" target="_blank" rel="noreferrer">
-                         <MdSlowMotionVideo className="text-3xl text-red-900"/>
+                         <MdSlowMotionVideo className="text-3xl text-red-900 animate__shakeX"/>
                          <p className="text-xs cursor-pointer">Video tutorial</p>
                       </a>
                     </li>
+                    </Tooltip>
+                    <Tooltip title="click here to download me"  arrow placement='bottom'>
                     <li className="text-slate-900">
                       <a href="https://mega.nz/file/FNZVCbAC#02xqjsuy-JTC9VmAb_I51EFkLY2pdImZ8pqsDMV-X5M" target="_blank" rel="noreferrer">
-                         <FaFilePdf className="text-3xl text-blue-900"/>
+                         <FaFilePdf className="text-3xl text-blue-900 animate__shakeX"/>
                          <p className="text-xs cursor-pointer">Pdf to read</p>
                       </a>
                     </li>
+                    </Tooltip>
                  </ul>
                  </div>
          </div>
