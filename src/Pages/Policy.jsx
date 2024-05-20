@@ -16,7 +16,7 @@ export default function Policy() {
             <h3 className="font-semibold">1. Meeting time</h3>
             <div className="flex flex-col pt-3 text-slate-900">
                 <p>The only way to keep the teams moving forward is a communication so that&apos;s is highly require to all the teams to respect the meeting program</p>
-                <p>The meeting time will be twice in week at <strong>Wednesday</strong> and at <strong>Friday</strong> at <strong>09:30 PM , West-Africa Standard Time</strong> </p>
+                <p>The meeting time will be twice in week at <strong>Wednesday</strong> and at <strong>Friday</strong> at <strong>09:30 AM , West-Africa Standard Time</strong> </p>
             </div>
 
             <h3 className="font-semibold pt-4">2. Project presentation</h3>

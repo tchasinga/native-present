@@ -27,7 +27,7 @@ export default function Program() {
             <p className="text-slate-900">And You&apos;ll be initiate to installation of IDE that you&apos;ll use during the program... it will be really helpful</p>
             <p className="text-slate-900">Right After installation you&apos;ll given a <strong>crush course of 07 hours long</strong> and PDF of 150 pages</p>
             <div className="pt-3">
-                <p className="text-red-900">Buy the end of this first week you&apos;ll able to create an ANDROID & IOS APP</p>
+                <p className="text-red-900">By the end of this first week you&apos;ll able to create an ANDROID & IOS APP</p>
             </div>
        </div>
        {/* Installation of IDE */}
