@@ -6,11 +6,13 @@ import Policy from './Pages/Policy.jsx'
 import Program from './Pages/Program.jsx'
 import Welcom from './Pages/Welcom.jsx'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
     <div className='mx-auto max-w-7xl w-full'>
       <BrowserRouter>
+      <Toaster />
         <Navbars />
         <Routes>
           <Route path='/' element={<><Welcom /><Program/></>} />
