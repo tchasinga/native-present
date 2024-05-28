@@ -15,7 +15,7 @@ const apis = [
   {
     name: 'Create Data API',
     url: 'https://public-api-information.onrender.com/api/creating',
-    description: 'API to create data',
+    description: 'API to create data accept: title , body, priority, user_email',
   },
   {
     name: 'Get All Data API',
